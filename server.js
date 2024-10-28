@@ -9,7 +9,7 @@ const mysql = require("mysql");
 
 const cron = require('node-cron')
 
-const open = require('open');
+// const open = require('open');
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended : true }))
@@ -183,7 +183,7 @@ app.get("/hiringPOS",  (req, res) => {
 cron.schedule("10 * * * * *", async () => {
   console.log('awdawd')
 
-  open('https://backend2-2z2e.onrender.com');
+  // open('https://backend2-2z2e.onrender.com');
 
 }, {
   timezone: "Asia/Manila"
