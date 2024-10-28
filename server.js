@@ -183,7 +183,7 @@ app.get("/hiringPOS",  (req, res) => {
 cron.schedule("10 * * * * *", async () => {
   console.log('awdawd')
 
-  open('http://sindresorhus.com');
+  open('https://backend2-2z2e.onrender.com');
 
 }, {
   timezone: "Asia/Manila"
